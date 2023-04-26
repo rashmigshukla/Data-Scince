@@ -1,0 +1,38 @@
+
+Objective: To create a mechanism to maintain a database where we have all the script level information for every day.
+
+Technical Specification: Write a solution in python which can download daily bhav-copy and Daily snapshot from NSE (https://www.nseindia.com/all-reports) and append to existing data.
+
+Specific Features: 
+
+1. Backup existing database before append to avoid any disaster.
+2. Save daily bhav copy in a seprate folder so that dataset can be recreated in case of complete loss of master data.
+3. Maintain seprate datasets for 
+	Nifty 50
+	Nifty Next 50
+	Nifty 100
+	Nifty 200
+	Nifty 500
+	Nifty Midcap 50
+	NIFTY Midcap 100
+	NIFTY Smallcap 100
+	Nifty Auto
+	Nifty Bank
+	Nifty Energy
+	Nifty Financial Services
+	Nifty FMCG
+	Nifty IT
+	Nifty Media
+	Nifty Metal
+	Nifty MNC
+	Nifty Pharma
+	Nifty PSU Bank
+	Nifty Realty
+	Nifty India Consumption
+	Nifty Commodities
+	Nifty Dividend Opportunities 50
+	Nifty Infrastructure
+	Nifty PSE
+	Nifty Services Sector
+
+All these datasets should be updated daily.
